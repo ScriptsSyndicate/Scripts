@@ -762,14 +762,6 @@ CommandSystem:AddCmd({
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/SimpleSpyV3/main.lua"))()
 	end
 })
-CommandSystem:AddCmd({
-	Title = "AudioLogger / AudioLog / ALogger",
-	Alias = {"AudioLogger", "AudioLog", "ALogger"},
-	Callback = function()
-	    NotificationLibrary:SendNotification("Info", "Loading AudioLogger by Edge", 3)
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/infyiff/backup/main/audiologger.lua'),true))()
-	end
-})
 
 PlayIntro()
 
